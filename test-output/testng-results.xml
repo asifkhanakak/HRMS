@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="9" total="12" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="32592" started-at="2020-02-02T21:08:13 EST" finished-at="2020-02-02T21:08:45 EST">
+    <groups>
+      <group name="regression">
+        <method signature="LeaveListPageTest.leaveLabelvalidation()[pri:0, instance:com.hrms.testcases.LeaveListPageTest@4d95d2a2]" name="leaveLabelvalidation" class="com.hrms.testcases.LeaveListPageTest"/>
+        <method signature="LeaveListPageTest.leaveLabelvalidation1()[pri:0, instance:com.hrms.testcases.LeaveListPageTest@4d95d2a2]" name="leaveLabelvalidation1" class="com.hrms.testcases.LeaveListPageTest"/>
+        <method signature="LoginPageTest.negativeLogin()[pri:0, instance:com.hrms.testcases.LoginPageTest@17579e0f]" name="negativeLogin" class="com.hrms.testcases.LoginPageTest"/>
+      </group> <!-- regression -->
+    </groups>
+    <test name="Regression Test" duration-ms="32592" started-at="2020-02-02T21:08:13 EST" finished-at="2020-02-02T21:08:45 EST">
+      <class name="com.hrms.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.LoginPageTest@17579e0f]" name="setUp" is-config="true" duration-ms="6209" started-at="2020-02-02T21:08:38 EST" finished-at="2020-02-02T21:08:44 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="negativeLogin()[pri:0, instance:com.hrms.testcases.LoginPageTest@17579e0f]" name="negativeLogin" duration-ms="257" started-at="2020-02-02T21:08:44 EST" finished-at="2020-02-02T21:08:44 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- negativeLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.LoginPageTest@17579e0f]" name="tearDown" is-config="true" duration-ms="591" started-at="2020-02-02T21:08:45 EST" finished-at="2020-02-02T21:08:45 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hrms.testcases.LoginPageTest -->
+      <class name="com.hrms.testcases.LeaveListPageTest">
+        <test-method status="PASS" signature="generateReports()[pri:0, instance:com.hrms.testcases.LeaveListPageTest@4d95d2a2]" name="generateReports" is-config="true" duration-ms="125" started-at="2020-02-02T21:08:13 EST" finished-at="2020-02-02T21:08:13 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReports -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.LeaveListPageTest@4d95d2a2]" name="setUp" is-config="true" duration-ms="6984" started-at="2020-02-02T21:08:13 EST" finished-at="2020-02-02T21:08:20 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="leaveLabelvalidation()[pri:0, instance:com.hrms.testcases.LeaveListPageTest@4d95d2a2]" name="leaveLabelvalidation" duration-ms="4898" started-at="2020-02-02T21:08:20 EST" finished-at="2020-02-02T21:08:25 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leaveLabelvalidation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.LeaveListPageTest@4d95d2a2]" name="tearDown" is-config="true" duration-ms="608" started-at="2020-02-02T21:08:25 EST" finished-at="2020-02-02T21:08:26 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hrms.testcases.LeaveListPageTest@4d95d2a2]" name="setUp" is-config="true" duration-ms="6447" started-at="2020-02-02T21:08:26 EST" finished-at="2020-02-02T21:08:32 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="leaveLabelvalidation1()[pri:0, instance:com.hrms.testcases.LeaveListPageTest@4d95d2a2]" name="leaveLabelvalidation1" duration-ms="4337" started-at="2020-02-02T21:08:32 EST" finished-at="2020-02-02T21:08:37 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- leaveLabelvalidation1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hrms.testcases.LeaveListPageTest@4d95d2a2]" name="tearDown" is-config="true" duration-ms="734" started-at="2020-02-02T21:08:37 EST" finished-at="2020-02-02T21:08:38 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="writeReport()[pri:0, instance:com.hrms.testcases.LeaveListPageTest@4d95d2a2]" name="writeReport" is-config="true" duration-ms="341" started-at="2020-02-02T21:08:45 EST" finished-at="2020-02-02T21:08:45 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeReport -->
+      </class> <!-- com.hrms.testcases.LeaveListPageTest -->
+    </test> <!-- Regression Test -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
